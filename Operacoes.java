@@ -42,7 +42,7 @@ public class Calc {
 		
 	      Scanner input = new Scanner(System.in);  
 	      
-	      
+	    // escritas da interface de escolha de tipo de calculo 
 		System.out.println("-Escolha uma opção-");
 	    System.out.println("1. Soma");  
 	    System.out.println("2. Subtracao");  
@@ -65,6 +65,7 @@ public class Calc {
 	    		
 	    	    Scanner input1 = new Scanner(System.in);  
 	  	      
+			  //primeiro e segundo valor decimal ou inteiro a calcular
 	    		System.out.println("Qual o primeiro numero: ");
 	    		 num1 = input1.nextInt();
 	    		System.out.println("Qual o segundo numero: ");
@@ -78,8 +79,9 @@ public class Calc {
 	    	}
 	    	 	if (opcao == 2) {
 		    		
-	    	 		  Scanner input1 = new Scanner(System.in);  
-	    	  	      
+	    	 		  Scanner input1 = new Scanner(System.in); 
+
+	    	  	    //primeiro e segundo valor decimal ou inteiro a calcular
 	  	    		System.out.println("Qual o primeiro numero: ");
 	  	    		 num1 = input1.nextInt();
 	  	    		System.out.println("Qual o segundo numero: ");
@@ -93,6 +95,7 @@ public class Calc {
 		    	 	if (opcao == 3) {
 		    	 		  Scanner input1 = new Scanner(System.in);  
 		    	  	      
+					//primeiro e segundo valor decimal ou inteiro a calcular  
 		  	    		System.out.println("Qual o primeiro numero: ");
 		  	    		 num1 = input1.nextInt();
 		  	    		System.out.println("Qual o segundo numero: ");
@@ -104,7 +107,8 @@ public class Calc {
 		    	 	}
 			    	 	if (opcao == 4) {
 			    	 		  Scanner input1 = new Scanner(System.in);  
-			    	  	      
+
+						//primeiro e segundo valor decimal ou inteiro a calcular      
 			  	    		System.out.println("Qual o primeiro numero: ");
 			  	    		 num1 = input1.nextInt();
 			  	    		System.out.println("Qual o segundo numero: ");
